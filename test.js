@@ -1,3 +1,4 @@
+
 const { chromium } = require('playwright');
 
 (async () => {
@@ -7,3 +8,4 @@ const { chromium } = require('playwright');
     console.log(await page.title());
     await browser.close();
 })();
+
